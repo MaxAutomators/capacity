@@ -1,0 +1,8 @@
+GET capacities/?filter:{'User':'amin.chirazi@automators.com','Start Month':'01.2020','End Month':'02.2020'}
+
+POST capacities/capacityID
+{
+	'Days':'10'
+}
+
+GET timr/?filter:{'Start Month':'01.2020','End Month':'02.2020')
