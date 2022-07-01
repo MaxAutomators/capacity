@@ -24,10 +24,9 @@ function App() {
   return (
     <ThemeProvider>
       <AuthenticatedTemplate>
-        <PageLayout />
-      </AuthenticatedTemplate >
+        <PageLayout/>
+      </AuthenticatedTemplate>
     </ThemeProvider>
-
   );
 }
 
