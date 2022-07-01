@@ -101,7 +101,6 @@ function App() {
       </AuthenticatedTemplate >
     </ThemeProvider>
 
-
   );
 }
 export default App;
