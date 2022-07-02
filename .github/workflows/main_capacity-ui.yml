@@ -54,4 +54,4 @@ jobs:
           app-name: 'capacity-ui'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0DDFC79058AB45759EA8B2FEFB0A0105 }}
-          package: ./ui
+          package: .
