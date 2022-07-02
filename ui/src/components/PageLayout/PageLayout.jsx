@@ -1,18 +1,6 @@
-import React from "react";
-
 import { useIsAuthenticated, useMsal } from "@azure/msal-react";
-import { Label } from '@fluentui/react/lib/Label';
-import { automatorsTheme } from "../../design";
-import { ThemeProvider } from "@fluentui/react";
-
-//import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Stack } from '@fluentui/react';
-
-import { Persona, PersonaSize } from '@fluentui/react/lib/Persona';
-
-import { DefaultPalette, FontSizes } from '@fluentui/react/lib/Styling';
-import { Nav, INavLinkGroup } from '@fluentui/react/lib/Nav';
+import { Stack, Label, Persona, PersonaSize, Nav } from '@fluentui/react';
 import { SignOutButton } from "./SignOutButton";
 import { Individual } from "../Individual/Individual";
 import { Overall } from "../Overall/Overall";
