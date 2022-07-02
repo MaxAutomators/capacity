@@ -1,11 +1,4 @@
-import { Stack, DetailsList, values, CommandBar } from "@fluentui/react";
-import { OverviewTable } from "./OverallTable";
-import { OverviewDatePicker } from "../Shared/PlanningDatePicker";
-import { KPITable } from "../Shared/UtilizationTable";
-import { Link } from '@fluentui/react/lib/Link';
-import { TextField } from '@fluentui/react/lib/TextField';
-import { Text } from '@fluentui/react/lib/Text';
-import { Announced } from '@fluentui/react/lib/Announced';
+import { CommandBar } from "@fluentui/react";
 
 const itemsCommandBar = [{
 
