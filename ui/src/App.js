@@ -6,7 +6,7 @@ import './App.css';
 
 async function handleLogin(instance) {
   await instance.loginRedirect(loginRequest).catch(e => {
-    console.error(e);
+    console.log(e);
   });
 }
 
