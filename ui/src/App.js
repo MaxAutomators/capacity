@@ -1,10 +1,7 @@
-import React, { useState } from "react";
 import { PageLayout } from "./components/PageLayout/PageLayout";
 import { AuthenticatedTemplate, useMsal, useIsAuthenticated } from "@azure/msal-react";
 import { loginRequest } from "./authConfig";
-import { initializeIcons } from '@fluentui/react/lib/Icons';
-import { ThemeProvider, createTheme } from '@fluentui/react';
-import { automatorsTheme } from "./design";
+import { initializeIcons } from '@fluentui/react';
 import './App.css';
 
 async function handleLogin(instance) {
@@ -22,11 +19,9 @@ function App() {
   if (!isAuthenticated) handleLogin(instance);
 
   return (
-    <ThemeProvider>
-      <AuthenticatedTemplate>
-        <PageLayout/>
-      </AuthenticatedTemplate>
-    </ThemeProvider>
+    <AuthenticatedTemplate>
+      <PageLayout />
+    </AuthenticatedTemplate>
   );
 }
 

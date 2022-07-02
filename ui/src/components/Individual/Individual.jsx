@@ -1,5 +1,4 @@
-import { Stack, DetailsList, SelectionMode, Dropdown, DetailsListLayoutMode, ColumnActionsMode } from "@fluentui/react";
-import { Children } from "react";
+import { Stack, DetailsList, SelectionMode, Dropdown, ColumnActionsMode } from "@fluentui/react";
 import { PlanningDatePicker } from "../Shared/PlanningDatePicker";
 import { UtilizationTable } from "../Shared/UtilizationTable";
 

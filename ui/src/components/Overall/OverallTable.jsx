@@ -1,6 +1,4 @@
-import { Stack, DetailsList, values, Link, ColorClassNames, DefaultButton, Label,DetailsListLayoutMode, SelectionMode } from "@fluentui/react";
-import { isLabelWithInternallyDisabledControl } from "@testing-library/user-event/dist/utils";
-
+import { DetailsList, Link, DetailsListLayoutMode, SelectionMode } from "@fluentui/react";
 
 
 const planningItems = [
@@ -125,10 +123,10 @@ function renderItemColumn(item, index, column) {
       return <Link href="#">{fieldContent}</Link>;
 
     default:
-          return (
-          <center>{fieldContent}</center>
-            );
+      return (
+        <center>{fieldContent}</center>
+      );
 
-      }
+  }
 
-  };
+};
