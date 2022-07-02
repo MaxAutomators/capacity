@@ -1,6 +1,4 @@
-import { Stack, DetailsList, values, Link, ColorClassNames, DefaultButton, Label, DetailsListLayoutMode, SelectionMode } from "@fluentui/react";
-import { isLabelWithInternallyDisabledControl } from "@testing-library/user-event/dist/utils";
-
+import { DetailsList, Label, SelectionMode } from "@fluentui/react";
 const planningItems = [
   {
     name: "Utilization",

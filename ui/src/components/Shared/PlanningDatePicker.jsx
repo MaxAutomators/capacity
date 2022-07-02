@@ -1,6 +1,4 @@
-import * as React from 'react';
-import { DatePicker, addDays, mergeStyleSets, DateRangeType, Stack, Calendar } from '@fluentui/react';
-import { DefaultButton } from '@fluentui/react/lib/Button';
+import { DatePicker, DefaultButton, DateRangeType, Stack, Calendar } from '@fluentui/react';
 
 const datePickerStyle = {
   width: 220
