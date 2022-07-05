@@ -3,6 +3,7 @@ import { AuthenticatedTemplate, useMsal, useIsAuthenticated } from "@azure/msal-
 import { loginRequest } from "./authConfig";
 import { initializeIcons } from '@fluentui/react';
 import { React } from 'react';
+import './App.css';
 
 async function handleLogin(instance) {
   await instance.loginRedirect(loginRequest).catch(e => {
