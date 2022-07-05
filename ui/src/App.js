@@ -2,7 +2,7 @@ import { PageLayout } from "./components/PageLayout/PageLayout";
 import { AuthenticatedTemplate, useMsal, useIsAuthenticated } from "@azure/msal-react";
 import { loginRequest } from "./authConfig";
 import { initializeIcons } from '@fluentui/react';
-import './App.css';
+import { React } from 'react';
 
 async function handleLogin(instance) {
   await instance.loginRedirect(loginRequest).catch(e => {

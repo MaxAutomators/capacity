@@ -4,6 +4,7 @@ import { Stack, Label, Persona, PersonaSize, Nav } from '@fluentui/react';
 import { SignOutButton } from "./SignOutButton";
 import { Individual } from "../Individual/Individual";
 import { Overall } from "../Overall/Overall";
+import { React } from 'react';
 
 const navLinkGroupsUser = [
   {
