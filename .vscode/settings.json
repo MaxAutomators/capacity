@@ -3,5 +3,11 @@
     "azureFunctions.scmDoBuildDuringDeployment": true,
     "azureFunctions.projectLanguage": "Python",
     "azureFunctions.projectRuntime": "~4",
-    "debug.internalConsoleOptions": "neverOpen"
+    "debug.internalConsoleOptions": "neverOpen",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/798a7f38-f61e-4fe6-bd40-0f095d9841c9/microsoft.web/sites/subscriptions/798a7f38-f61e-4fe6-bd40-0f095d9841c9/resourceGroups/automators/providers/Microsoft.Web/sites/capacity-ui",
+    "appService.deploySubpath": "ui"
 }
