@@ -20,15 +20,13 @@ export const PlanningDatePicker = () => {
         <DefaultButton text="Previous" style={buttonStyles} />
 
 
-        <DatePicker 
-        style={datePickerStyle}
-        calendarAs={()=><Calendar
+        <DatePicker
+          style={datePickerStyle}
+          calendarAs={() => <Calendar
             isDayPickerVisible={false}
             dateRangeType={DateRangeType.Month}
-
-        />}
+          />}
         />
-
         <DefaultButton text="Next" style={buttonStyles} />
       </Stack>
     </div>
@@ -41,6 +39,5 @@ const buttonStyles = {
 }
 
 const tokens = {
-
   childrenGap: "30"
 }
