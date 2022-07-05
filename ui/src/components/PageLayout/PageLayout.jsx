@@ -46,7 +46,7 @@ const styleLabelCapacity = {
 export const PageLayout = (props) => {
   const isAuthenticated = useIsAuthenticated();
   const accountName = useMsal().accounts[0]?.name;
-  console.log(useMsal().accounts[0].idTokenClaims['roles']);
+  // console.log(useMsal().accounts[0].idTokenClaims['roles']);
   return (
     <>
 
@@ -60,7 +60,7 @@ export const PageLayout = (props) => {
 
       <Stack horizontal>
         <Stack.Item style={navStyles}>
-          <Nav groups={(useMsal().accounts[0].idTokenClaims.roles[0]=== "Capacity.Admin") ? navLinkGroupsAdmin : navLinkGroupsUser}></Nav>
+          <Nav groups={(useMsal().accounts[0].idTokenClaims.roles[0] === "Capacity.Admin") ? navLinkGroupsAdmin : navLinkGroupsUser}></Nav>
         </Stack.Item>
         <BrowserRouter>
           <Routes>

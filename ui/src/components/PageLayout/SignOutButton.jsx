@@ -1,5 +1,6 @@
 import { useMsal } from "@azure/msal-react";
 import { CommandBarButton } from '@fluentui/react';
+import { React } from 'react';
 
 function handleLogout(instance) {
     instance.logoutRedirect().catch(e => {
